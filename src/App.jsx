@@ -6,6 +6,9 @@ import AdditionalInfoCard from "./components/AdditionalCardInfo";
 import CitySelector from "./components/CitySelector";
 import SearchCity from "./components/Search";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 const App = () => {
   const [weatherData, setWeatherData] = useState({});
   const [loading, setLoading] = useState(false);
